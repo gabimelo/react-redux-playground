@@ -9,7 +9,7 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "",
+  "author": "Gabriela Melo <gabimelo10@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
@@ -32,6 +32,7 @@
     "react-dom": "^0.14.3",
     "react-redux": "^4.0.0",
     "react-router": "^2.0.1",
-    "redux": "^3.0.4"
+    "redux": "^3.0.4",
+    "youtube-api-search": "^0.0.5"
   }
 }
